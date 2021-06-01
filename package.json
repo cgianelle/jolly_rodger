@@ -1,0 +1,29 @@
+{
+  "name": "jolly_roger",
+  "version": "1.0.0",
+  "description": "NodeJS Feature Flag Implementation",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgianelle/jolly_roger.git"
+  },
+  "keywords": [
+    "flags",
+    "toggles"
+  ],
+  "author": "cgianelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgianelle/jolly_roger/issues"
+  },
+  "homepage": "https://github.com/cgianelle/jolly_roger#readme"
+}
