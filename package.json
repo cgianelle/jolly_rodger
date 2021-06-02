@@ -7,13 +7,19 @@
     "chai": "^4.3.4"
   },
   "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "mocha": "^8.4.0"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha test"
+    "test": "node node_modules/mocha/bin/mocha test",
+    "lint": "node node_modules/.bin/eslint index.js test/"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
     "url": "git+https://github.com/cgianelle/jolly_roger.git"
   },
   "keywords": [
